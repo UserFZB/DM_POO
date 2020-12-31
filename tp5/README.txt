@@ -60,6 +60,9 @@ ETAPE 6:
 
 — Où est l’information dont j’ai besoin dans la réponse:
 	— Pour afficher la température du lieu visé par les coordonnées GPS
-	-> ${meteo.currentParameters.temperature}
+	-> ${meteo.currently.temperature}
 	— Pour afficher la prévision de météo du lieu visé par les coordonnées GPS
-	-> ${meteo.currentParameters.summary}
+	-> ${meteo.currently.summary}
+
+ETAPE 7:
+https://github.com/UserFZB/DM_POO.git
